@@ -11,9 +11,20 @@ This is also available on git hub at [github.com](https://github.com/chisolm/MMa
 ## Dependencies
 
 The matrix class and implentation have no external dependancies than c++11 and
-STL..  They were tested clang:
+STL.  They were tested clang:
 
+My test program currently depends on the Eigan library.  See the discussion at the
+bottom of this README.md about the use of the Eigan library.  That was a choice 
+made in knowledge of the instructions about external use, again, please see below.
+
+The Eigen library may be downloaded at: [current version](http://bitbucket.org/eigen/eigen/get/3.3.4.tar.gz)
+
+Note file name may differ:
 ```
+gunzip eigen-eigen-5a0156e40feb.tar.gz
+tar -xvf eigen-eigen-5a0156e40feb.tar
+```
+
 $ clang++ --version
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.3.0
