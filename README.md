@@ -25,6 +25,8 @@ gunzip eigen-eigen-5a0156e40feb.tar.gz
 tar -xvf eigen-eigen-5a0156e40feb.tar
 ```
 
+Clang used on OSX:
+```
 $ clang++ --version
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.3.0
