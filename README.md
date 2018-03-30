@@ -1,5 +1,7 @@
 # Matrix Multiplication code test
 
+This is also available on git hub at [github.com](https://github.com/chisolm/MMatrix).
+
 ---
 
 [//]: # (Image References)
